@@ -2,9 +2,9 @@
 # bash setup.sh
 
 # source code
-sudo mkdir -p /var/www/promhodflood.org
-cd /var/www/promhodflood.org
-git clone  https://github.com/arc6828/promhod
+# sudo mkdir -p /var/www/promhodflood.org
+# cd /var/www/promhodflood.org
+# git clone https://github.com/arc6828/promhod
 
 # for Laravel
 cd promhod
