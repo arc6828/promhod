@@ -66,12 +66,12 @@ Route::get('/about', function () {
         'LINE_ALBUM_Nakhon Sri _day 1_160222_220914_137.jpg',
     ];
     $profiles = [
-        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_104518_edit.jpg", "name" => "รศ.ดร.นิสา พักตร์วิไล", "position" => "หัวหน้าทีมวิจัย", "organization" => "สาขาวิทยาศาสตร์และเทคโนโลยีสิ่งแวดล้อม คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
+        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_090317_edit.jpg", "name" => "อ.ชวลิต โควีระวงศ์", "position" => "หัวหน้าทีมวิจัย", "organization" => "สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
+        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_091501_edit.jpg", "name" => "ผศ.ดร.รัตถชล อ่างมณี", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาการจัดการภัยพิบัติ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
+        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_090721_edit.jpg", "name" => "ดร. ดาวรถา วีระพันธ์", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
+        (object)["image" => "https://sci.vru.ac.th/assets/images/people/3150600360621_edit17289184043912.jpg", "name" => "ผศ.ไพรินทร์ มีศรี", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาเทคโนโลยีสารสนเทศ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
         (object)["image" => "https://disastervru.wordpress.com/wp-content/uploads/2021/04/222-2.jpg", "name" => "อ.นิธิพนธ์ น้อยเผ่า", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาวิชาการจัดการสาธารณภัย คณะวิทยาศาสตร์และเทคโนโลยีสุขภาพ มหาวิทยาลัยนวมินทราธิราช"],
-        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_090317_edit.jpg", "name" => "อ.ชวลิต โควีระวงศ์", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาวิทยาการคอมพิวเตอร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
-        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_091252_edit.jpg", "name" => "อ.สมคิด ตันเก็ง", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาการจัดการภัยพิบัติ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
-        (object)["image" => "https://sci.vru.ac.th/assets/images/people/IMG_20230513_102620_edit.jpg", "name" => "อ.ศิรภัสสร พันธะสา", "position" => "ผู้ร่วมวิจัย", "organization" => "สาขาการจัดการภัยพิบัติ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์"],
-        (object)["image" => "http://www.wre.eng.ku.ac.th/upload/user/user_33_0847.png", "name" => "อ.ดร.เดชพล จิตรวัฒน์ลศิริ", "position" => "ผู้ร่วมวิจัย", "organization" => "ภาควิชาวิศวกรรมทรัพยากรน้ำ คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์"],
+        
     ];
     return view('about', compact('profiles', 'images'));
 });
