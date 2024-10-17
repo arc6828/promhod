@@ -7,7 +7,7 @@
 # git clone https://github.com/arc6828/promhod
 
 # for Laravel
-cd promhod
+cd /var/www/promhodflood.org/promhod
 sudo chmod 777 -R storage
 sudo chown -R www-data.www-data storage
 composer install
