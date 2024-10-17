@@ -1,8 +1,8 @@
 <header class="header-global">
     <style>
         .navbar-brand img {
-            height: 60px ;
-            width: 120px; 
+            height: 80px ;
+            width: 160px; 
             object-fit: cover;
         }
     </style>
