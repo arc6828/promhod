@@ -111,6 +111,14 @@ Route::get('/chart', function () {
 Route::get('/testmap', function () {
     return view('m');
 });
+Route::get('/hello', function () {
+    return "hello world";
+    // return view('kml');
+});
+Route::get('/raster', function () {
+    // return "sss";
+    return view('kml');
+});
 
 Route::get('livewire', function () {
     return view('livewire');
@@ -145,3 +153,4 @@ Route::resource('station-image', StationImageController::class);
 
 Route::resource('user-location', UserLocationController::class);
 Route::resource('line-user', LineUserController::class);
+

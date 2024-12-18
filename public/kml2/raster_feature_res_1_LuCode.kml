@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="raster_feature_res_1_LuCode" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>raster_feature_res_1_LuCode</name>
+	<Snippet maxLines="0"></Snippet>
+	<GroundOverlay id="ID_0">
+		<name>raster_feature_res_1_LuCode</name>
+		<Snippet maxLines="0"></Snippet>
+		<drawOrder>1000</drawOrder>
+		<Icon>
+			<href>Layer0.png</href>
+		</Icon>
+		<LatLonBox>
+			<north>14.01677900982144</north>
+			<south>13.49223664565579</south>
+			<east>102.5865471944948</east>
+			<west>102.229600318951</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Document>
+</kml>
